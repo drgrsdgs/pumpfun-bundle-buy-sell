@@ -98,7 +98,7 @@ const makeBuyIx = async (kp: Keypair, buyAmount: number) => {
         kp.publicKey,
         mintAddress,
         BigInt(buyAmount),
-        BigInt(5000),
+        BigInt(1000),
         commitment
     );
 
